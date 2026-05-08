@@ -1,0 +1,41 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.column {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 16px;
+  min-height: 350px;
+
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.column-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+
+  color: #111827;
+
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.dragging-over {
+  background: #f8fafc;
+  border: 2px dashed #6366f1;
+}
+
+.empty-column {
+  text-align: center;
+  color: #94a3b8;
+  margin-top: 20px;
+  font-size: 14px;
+}
