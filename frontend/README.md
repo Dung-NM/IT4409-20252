@@ -26,7 +26,7 @@ frontend/
 │ │ │ ├── Content.jsx
 │ │ │ ├── Header.jsx
 │ │ │ ├── MainLayout.jsx
-│ │ │ ├── Sidebar.jsx
+│ │ │ └── Sidebar.jsx
 │ │ │
 │ │ └── task/
 │ │
