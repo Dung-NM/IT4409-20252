@@ -1,0 +1,140 @@
+/* ============================================
+   DESIGN TOKENS — Task Management System
+   File: src/styles/variables.css
+   ============================================ */
+
+:root {
+  /* ── Color Palette ─────────────────────────── */
+
+  /* Sidebar (dark surface) */
+  --sidebar-bg: #0f1117;
+  --sidebar-border: rgba(255, 255, 255, 0.06);
+  --sidebar-text: #a0a8b8;
+  --sidebar-text-active: #ffffff;
+  --sidebar-item-hover: rgba(255, 255, 255, 0.06);
+  --sidebar-item-active: rgba(255, 255, 255, 0.1);
+  --sidebar-icon-color: #5a6478;
+  --sidebar-icon-active: #7c8cf8;
+  --sidebar-section-label: #3d4456;
+  --sidebar-logo-accent: #7c8cf8;
+
+  /* Header */
+  --header-bg: #ffffff;
+  --header-border: #f0f0f2;
+  --header-text: #1a1d27;
+  --header-text-muted: #8b92a5;
+  --header-shadow: 0 1px 0 0 #f0f0f2;
+
+  /* Content / Main Area */
+  --content-bg: #f7f8fc;
+  --content-text: #1a1d27;
+  --content-text-muted: #6b7280;
+  --content-border: #e8eaef;
+
+  /* Brand / Accent */
+  --accent: #7c8cf8;
+  --accent-hover: #6b7cf0;
+  --accent-light: rgba(124, 140, 248, 0.1);
+  --accent-muted: rgba(124, 140, 248, 0.15);
+
+  /* Semantic */
+  --success: #34c789;
+  --success-light: rgba(52, 199, 137, 0.12);
+  --warning: #f59e0b;
+  --warning-light: rgba(245, 158, 11, 0.12);
+  --danger: #f43f5e;
+  --danger-light: rgba(244, 63, 94, 0.12);
+  --info: #38bdf8;
+
+  /* Neutral scale */
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+
+  /* Auth page */
+  --auth-bg: #f0f2f8;
+  --auth-card-bg: #ffffff;
+  --auth-card-border: rgba(0, 0, 0, 0.06);
+  --auth-input-bg: #f7f8fc;
+  --auth-input-border: #e2e4eb;
+  --auth-input-focus: #7c8cf8;
+  --auth-label: #374151;
+  --auth-placeholder: #9ca3af;
+
+  /* ── Typography ────────────────────────────── */
+  --font-sans: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.8125rem;
+  --text-base: 0.9375rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.375rem;
+  --text-2xl: 1.75rem;
+  --text-3xl: 2.25rem;
+
+  --weight-normal: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  --leading-tight: 1.25;
+  --leading-snug: 1.4;
+  --leading-normal: 1.6;
+
+  /* ── Spacing ───────────────────────────────── */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  /* ── Layout ────────────────────────────────── */
+  --sidebar-width: 240px;
+  --sidebar-collapsed-width: 0px;
+  --header-height: 56px;
+  --content-max-width: 1280px;
+
+  /* ── Radius ────────────────────────────────── */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  /* ── Shadow ────────────────────────────────── */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.10), 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-xl: 0 20px 60px rgba(0, 0, 0, 0.14);
+  --shadow-accent: 0 4px 20px rgba(124, 140, 248, 0.3);
+
+  /* ── Transition ────────────────────────────── */
+  --transition-fast: 120ms ease;
+  --transition-base: 200ms ease;
+  --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ── Breakpoints (reference only) ─────────── */
+  /* 480px | 768px | 1024px */
+
+  /* ── Z-index ───────────────────────────────── */
+  --z-sidebar: 200;
+  --z-header: 100;
+  --z-overlay: 150;
+  --z-modal: 300;
+  --z-toast: 400;
+}
