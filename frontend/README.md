@@ -2,6 +2,7 @@
 
 # Cấu trúc thư mục
 
+```text
 frontend/
 │
 ├── public/
@@ -66,6 +67,7 @@ frontend/
 ├── .gitignore
 ├── package.json
 └── vite.config.js
+```
 
 ---
 
